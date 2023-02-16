@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="/stylesheets/beer.css">
+<div>
+    <ul>
+        {{#each beersArr}} 
+            <li>
+                {{> beerpartial this}}
+            </li>
+        {{/each}}
+    </ul>
+</div>

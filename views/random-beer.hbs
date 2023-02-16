@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/stylesheets/randomBeer.css">
+<div class="randomBeerContainer">
+    {{#each randomBeer}}
+        {{> beerpartial this}}
+        <div></div>
+        <div>
+            <h4>Food Pairing: </h4>
+            <ul class="foodPairing">
+                {{#each food_pairing}}
+                    <li>
+                        {{this}}
+                    </li>
+                {{/each}}
+            </ul>
+            <h4>Brewer Tips: </h4>
+            <p class="brewer_tips">{{brewers_tips}}</p>
+        </div>
+    {{/each}}
+</div>

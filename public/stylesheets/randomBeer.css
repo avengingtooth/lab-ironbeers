@@ -1,0 +1,18 @@
+.randomBeerContainer{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.foodPairing{
+    display: block;
+}
+
+.foodPairing li{
+    list-style-type: disc;
+    margin: 1em;
+    margin-left: 3em;
+}
+
+p:not(.brewer_tips) {
+    margin: 1em 0 1em 0;
+}
